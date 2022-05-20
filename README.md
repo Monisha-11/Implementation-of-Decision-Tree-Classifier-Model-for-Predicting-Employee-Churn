@@ -11,24 +11,23 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ### STEP 1:
 
-Import pandas library to read csv or excel file.
+Import the required libraries
 
 ### STEP 2:
 
-Import LabelEncoder using sklearn.preprocessing library.
+ Upload and read the dataset.
 
 ### STEP 3:
 
-Transform the data's using LabelEncoder.
+Check for any null values using the isnull() function.
 
 ### STEP 4:
 
-Import decision tree classifier from sklearn.tree library to predict the values.
+From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
 
 ### STEP 5:
 
-Find accuracy and Predict the values.
-End of the program.
+ Find the accuracy of the model and predict the required values by importing the required module from sklearn.
 
 ## Program:
 ```python
